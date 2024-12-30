@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <div class="header">
+        <h3>My Website!!!</h3>
+        <div class="links">
+            <a class="linkbox" href="#containerbox">Home</a>
+            <a class="linkbox" href="#listsID">Lists</a>
+            <a class="linkbox" href="#formid">Form</a>
+        </div>
+        <div class="buttons">
+            <button onclick="change();">Click me</button>
+            <button onclick="reset();">reset</button>
+        </div>
+        
+        
+    </div>
+    
+    <div class="container" id="containerbox">
+        <div class="child">
+            <p style="text-decoration: underline;font-size: larger;">About Benjamin Eren</p>
+            <div class="about">
+                <p>Here are 10 facts about me and you can also see my LinkedIn and GitHub pages if you fancy!</p>
+                <p>I used a flexbox to makes the facts fit nicely into one container. Plus a small js function.</p>
+                <div class="picture" >
+                    <img class="pictureID" src="https://media.licdn.com/dms/image/D4E03AQHnRsJEq1q-nA/profile-displayphoto-shrink_200_200/0/1666763679535?e=2147483647&v=beta&t=QJE0vBNBXXvDdLGmp-U9NU1it7ddEBSXfTjMuz_RIQU"></a>
+                </div>
+            </div>
+            <div class="boxes">
+                <p class="innerBox">My birth month is April</p>
+                <p class="innerBox">I'm from <br> London</p>
+                <p class="innerBox">I want to run <br>a marathon</p>
+                <p class="innerBox">My favorite holiday destination is Italy</p>
+                <p class="innerBox">I prefer cats over dogs</p>
+                <p class="innerBox">I play tennis</p>
+                <p class="innerBox">My current favorite movie About Time</p>
+                <p class="innerBox">I also like Pirates of the Caribbean</p>
+                <p class="innerBox">I want to travel to Asia & South America</p>
+                <p class="innerBox">I have been to Oman</p>
+                <p class="innerBox">Click here for my <a href="https://uk.linkedin.com/in/benjamin-eren-907b3a140" target="_blank">Linkedin</a></p>
+                <p class="innerBox">Click here for my <a href="https://github.com/beneren10" target="_blank">GitHub</a></p>
+            </div>
+            
+        </div>
+        <div class="end" id="listsID">
+            
+            <div class="bullets">
+                <div class="list1">
+                    <p>Here are some of the languages and systems I looked at so far</p>
+                    <ul>
+                        <li class="ulitem">Python</li>
+                        <li class="ulitem">JavaScript</li>
+                        <li class="ulitem">Express</li>
+                        <li class="ulitem">MongoDB</li>
+                    </ul>
+                </div>
+                <div class="list2">
+                    <p>Ranking fruits</p>
+                    <ol>
+                        <li>Grape</li>
+                        <li>Strawberry</li>
+                        <li>Bananna</li>
+                        <li>Pineapple</li>
+                    </ol>
+                </div>
+
+            </div>
+            <div class="formclass" id="formid">
+                <div class="form">
+                    <form>
+                        <h3>Let us know more about you</h3>
+                        <p>What's your name?</p>
+                        <input type="text" id="header1">
+                        <p>Where are you from?</p>
+                        <input type="text" name="header2" id="header2">
+                        <p>What's your mothers maiden name?</p>
+                        <input type="text" name="header3" id="header3">
+                        <BR>
+                        <button type="submit" onclick="view()">SUBMIT</button>
+                    </form>
+                    
+                </div>
+                
+                <div id="logo" style="width: 50%;">
+                    <p id="inputbox" style="margin: 10px; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aliquam. Doloribus inventore quisquam expedita dicta rerum delectus iste assumenda nisi quasi, fugit dignissimos odio veniam cumque officia possimus, autem quia?</p>
+                </div>
+            </div>
+            
+        </div>
+        <footer class="hello" style="color: white;">Author: beneren10@hotmail.co.uk</footer>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -25,7 +25,8 @@ body {
     border: 1px grey solid;
     border-radius: 5%;
     height: 90vh;
-    width: 50%;
+    max-width: 50%;
+    min-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -8,20 +8,41 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
-    <div class="header">
-        <h3>My Website!!!</h3>
-        <div class="links">
-            <a class="linkbox" href="#containerbox">Home</a>
-            <a class="linkbox" href="#listsID">Lists</a>
-            <a class="linkbox" href="#formid">Form</a>
+    <img class='img-fixed' src="/images/favicon.ico" style="position: fixed; z-index: 3; height: 30px; opacity: 50%;"></img>
+    <div class="nav-header">
+        <div class="header">
+            <h3>My Website!!!</h3>
+            <div class="links">
+                <a class="linkbox" href="#containerbox">Home</a>
+                <a class="linkbox" href="#listsID">Lists</a>
+                <a class="linkbox" href="#formid">Form</a>
+            </div>
+            <div class="buttons">
+                <button onclick="change();">Click me</button>
+                <button onclick="reset();">reset</button>
+            </div>
+            <div class="max-width">
+                <img src="list.svg" class="icon-nav" onclick="nav()"></img>
+            </div>
         </div>
-        <div class="buttons">
-            <button onclick="change();">Click me</button>
-            <button onclick="reset();">reset</button>
+        <div class="nav" id="nav">
+            <ul>
+                <a href="#containerbox">
+                    <li>Home</li>
+                </a>
+                <a href="#listsID">
+                    <li>Lists</li>
+                </a>
+                <a href="#formid">
+                    <li>Form</li>
+                </a>
+                
+            </ul>
         </div>
-        
-        
     </div>
+   
+    
+    
     
     <div class="container" id="containerbox">
         <div class="child">
@@ -59,6 +80,7 @@
                         <li class="ulitem">JavaScript</li>
                         <li class="ulitem">Express</li>
                         <li class="ulitem">MongoDB</li>
+                        <li class="ulitem">SQL</li>
                     </ul>
                 </div>
                 <div class="list2">
@@ -68,6 +90,7 @@
                         <li>Strawberry</li>
                         <li>Bananna</li>
                         <li>Pineapple</li>
+                        <li>Lime</li>
                     </ol>
                 </div>
 
@@ -98,6 +121,7 @@
     </div>
     
     <script src="script.js"></script>
+    
     
 </body>
 </html>

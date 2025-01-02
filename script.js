@@ -21,3 +21,8 @@ function view() {
 
     alert(`Welcome to my page ${nameInput}, I have a feeling you live in ${whereInput} and your mothers' maiden name is probably ${motherInput}`)
 }
+
+function nav() {
+    document.getElementById('nav').classList.toggle('nav-toggle');
+    
+}
